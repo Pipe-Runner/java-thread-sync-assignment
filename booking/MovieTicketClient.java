@@ -1,6 +1,6 @@
 package booking;
 
-public class MovieTicketClient implements Runnable {
+public class MovieTicketClient extends Thread {
 	private MovieTicketServer movieTicketServer;
 	private String customerName;
 	private int noOfSeatsToBook;
